@@ -1,6 +1,6 @@
 How to use:
 
-1. Add trigger functions. Attention - the last request must be performed from the owner of the database (CREATE EVENT TRIGGER on_create_table ON ddl_command_end ...)
+1. Add trigger functions. Attention - the last request must be performed from the superuser (CREATE EVENT TRIGGER on_create_table ON ddl_command_end ...)
 
 psql -f triggers.sql <db_name=sogo>
 
